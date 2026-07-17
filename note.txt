@@ -1,0 +1,84 @@
+--- create venv ---
+
+python -m venv .venv
+.venv\Scripts\activate
+python -m pip install pytest
+python -m pytest -q
+
+---pip install pytest---
+
+
+#python 
+Decimal = float 
+Fraction(tu, mau)
+complex(a,b) = a + bj => n.real , n.imag
+
+===> math 
+.trunc() : phần nguyên 
+.floor() : phần nguyên làm tròn xuống 
+.ceil() : phần nguyên làm tròn lên 
+.fabs() : số thực trị tuyệt đối 
+sqrt() 
+qcd(x,y) : UCLN 
+
+===> String 
+'abc def' = '1234567' = '-7-6-5-4-3-2-1' = [::]
+[start,end,step]'
+
+''.join([]) từ list => string 
+.spit() --> string -> list 
+replace(old,new,count)
+.strip(ký tự) => lượt bỏ đầu và đuôi 'char' => rstrip/lstrip
+partition(ký tự/câu) => vd ' tao la ai '.partition('la') => ['tao','la','ai']
+count(ký tự, start, end)
+startswith(ký tự, start ,end) ==> ký tự đó có bắt đầu tại start hay k 
+endswitch 
+find(ký tự, start ,end) = index()-> but error nếu ko tìm đc giá trị 
+rfind()/rindex
+
+capitalize() , viết hoa chữ đầu 
+upper = lower 
+swapcase 
+title
+ljust,center,rjust(số ký tự , '*' )
+
+islower/isupper/istitle/
+isdigit/isnumeric 
+isspace = all là khoảng trống 
+
+==>format 
+f'{var}'
+'{}'.format(var)
+'%a'${1}
+=> {:(kýtự)<^>sốlượng} = {:*>10} = {******aaaa} 
+
+===> LIST 
+comprehension = [[n,n*2] for n in range (1,4)] [1,1],[2,4].. => 1 for 
+-> . 
+find/index 
+copy 
+clear 
+append([4,5]) => [4,5]
+extend ([4,5]) => 4,5  -> flatten / [4,5,[1,2]] -> 4,5,[1,2]
+insert(index, char) 
+pop  -> delete i in list 
+remove(char) 
+sort(reverse = T/F)
+
+
+===> dict() 
+ dict.fromkeys() : create dict just key and value : none 
+ dict[key]
+keys/values
+
+-> copy / clear 
+get(key)
+items() -> create tuple ([(k,v),(k,v)])
+pop(x, return this value if None ) 
+{a:b,c:d}.popitem() -> (c,d)
+
+setdefault(k,v)/(k) -> if had key -> v / if None -> set as a key 
+update(k=v,k=v) ---> add k,v 
+
+
+bai 19 
