@@ -1,4 +1,5 @@
-
+#Viết chương trình nhập vào bán kính đường tròn, tính toán và in ra chu vi và diện 
+#tích hình tròn. 
 
 def cO(r) : 
     return "{:.2f}".format(2*3.14*r)

@@ -1,4 +1,5 @@
-
+#Cho một danh sách số nguyên: [5, 10, 15, 20, 25, 46] 
+#Tìm giá trị lớn nhất và nhỏ nhất của danh sách. 
 
 def mx(lst) : 
     mx = 0  

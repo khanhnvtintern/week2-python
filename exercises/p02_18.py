@@ -1,5 +1,6 @@
-
-
+#Ứng dụng chuyển đổi nhiệt độ từ độ C sang F, chuyển đổi từ kg sang pao(lb), 
+#diện tích, thể tích, tốc độ, thời gian (Easy) 
+#
 def c_to_f() : 
     n = int(input("inp C : " ))
     return n*9/5 + 32 

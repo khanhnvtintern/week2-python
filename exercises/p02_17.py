@@ -1,5 +1,6 @@
-
-
+#Viết một chương trình nhập số nguyên dương n và tính tổng của các chữ số của 
+#số n. 
+#
 def fix(n):
     lst = [] 
     for i in str(n): 

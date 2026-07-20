@@ -1,4 +1,5 @@
-
+#Get first, second best scores from the list. 
+#List may contain duplicates
 
 def hw2(): 
     lst = [86,86,85,85,85,83,23,45,84,1,2,0]  

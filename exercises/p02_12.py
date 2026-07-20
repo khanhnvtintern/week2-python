@@ -1,4 +1,6 @@
-
+#Viết một chương trình in ra các số chia hết cho 7 nhưng không chia hết cho 5 
+#nằm trong khoảng 100 cho đến 1000 (tính cả 100 và 1000). 
+#Kết quả: In trên một dòng và cách nhau bởi dấu phẩy. 
 
 
 def hw(): 

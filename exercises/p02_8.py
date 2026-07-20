@@ -1,5 +1,5 @@
 
-
+#Cho một danh sách các số, hãy tìm và in tất cả các phần tử lớn hơn phần tử trước 
 def hw() : 
     lst = [1,5,2,4,3]
     #lst = [5,5,5,5,5]

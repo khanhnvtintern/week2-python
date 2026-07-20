@@ -1,4 +1,5 @@
-
+#Viết một chương trình in tất cả các số nguyên tố nhỏ hơn n. Với n là số nguyên 
+#dương nhập từ bàn phím.
 
 def prime(n) : 
     if n < 2 : 
