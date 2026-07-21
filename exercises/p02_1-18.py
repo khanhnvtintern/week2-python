@@ -1,3 +1,6 @@
+#https://github.com/khanhnvtintern/week2-python
+
+
 #Cho một số nguyên, in " YES​" nếu chữ số cuối của nó là 7 và in " NO​" nếu không.
 def hw_01(n): 
     if n % 10 == 7:
@@ -8,7 +11,7 @@ def hw_01(n):
 Cho biết tọa độ của ba điểm A, B, C trên một đoạn thẳng. In khoảng cách từ điểm
 A đến điểm gần nó nhất.
 """
-def homework_01(a, b, c):
+def homework_02(a, b, c):
     try : 
         if a and b and c is None or a and b and c is not (int or float):
             return "error"
@@ -23,7 +26,7 @@ def homework_01(a, b, c):
         return "type error"
 
 #iết chương trình tính tổng các số trong một danh sách
-def hw(n) :
+def hw3(n) :
     sum = 0
     for i in n:
         sum += i
@@ -77,7 +80,7 @@ def calculate_discount(user_input):
 
 
 #Viết chương trình in ra tất cả các số chẵn trong một danh sách
-def hw():
+def hw6():
     lst = [2, 5, 8, 10, 12]
     fix_lst = []
     for i in lst :
@@ -89,7 +92,7 @@ def hw():
 #Viết một chương trình tìm ra số lớn nhất của một danh sách mà không sử dụng
 #hàm max()
 
-def hw():
+def hw7():
     lst =  [2, 5, 3, 10, 12]
     mx = 0;
     for i in lst :
@@ -99,7 +102,7 @@ def hw():
 
 
 #Cho một danh sách các số, hãy tìm và in tất cả các phần tử lớn hơn phần tử trước
-def hw() :
+def hw8() :
     lst = [1,5,2,4,3]
     #lst = [5,5,5,5,5]
     fst = lst[0]
@@ -115,7 +118,7 @@ def hw() :
 
 #Bài 9.
 #Viết một chương trình xóa tất cả phần tử lặp lại (trùng lặp) ra khỏi danh sách.
-def hw():
+def hw9():
     lst =  [1, 3, 5, 6, 3, 5, 6, 1]
     r = []
     for i in lst :
@@ -127,7 +130,7 @@ def hw():
 #Get first, second best scores from the list.
 #List may contain duplicates
 
-def hw2():
+def hw10():
     lst = [86,86,85,85,85,83,23,45,84,1,2,0]
     fst = max(lst)
     while True :
@@ -138,7 +141,7 @@ def hw2():
             break
     sec = max(lst)
     return fst,sec
-def hw():
+def hw11():
     lst =  [86,86,85,85,85,83,23,45,84,1,2,0]
     fst = 0
     sec = 0
@@ -172,7 +175,7 @@ def maxv(lst) :
             maxn = i
     return maxn
 
-def hw() :
+def hw13() :
     #lst = [10, 3, 5, 6]
     lst = [7, 2, 10, 9]
     mv = minv(lst)
@@ -185,7 +188,7 @@ def hw() :
 #Kết quả: In trên một dòng và cách nhau bởi dấu phẩy.
 
 
-def hw():
+def hw14():
     mn = 100
     mx =1000
     divide = 7
@@ -351,3 +354,4 @@ while True :
 if __name__ == "__main__":
     r = fix()
     print(r)
+    
